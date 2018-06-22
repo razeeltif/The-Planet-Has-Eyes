@@ -4,6 +4,7 @@ using UnityEngine;
 
 [RequireComponent (typeof(Rigidbody))]
 [RequireComponent(typeof(PlayerCamera))]
+[RequireComponent(typeof(PlayerInventaire))]
 public class PlayerController : MonoBehaviour {
 
     // coefficient de la vitesse de la souris

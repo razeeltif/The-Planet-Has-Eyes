@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TimeController : MonoBehaviour {
+public class MoonController : MonoBehaviour {
 
     // la DirectionalLight correspondant à la lumière émise par la lune
     [SerializeField] private Light moon;
@@ -15,7 +15,7 @@ public class TimeController : MonoBehaviour {
     [Range(0, 1)] public float currentTimeMoon = 0f;
 
     // entre 0 et 1, correspond à l'impact de la lune sur l'environnement
-    [HideInInspector] private float moonIntensity;
+    public float moonIntensity;
 
     [SerializeField] private float moonUnderMap = 0.2f;
 
