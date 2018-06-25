@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>D:\Unity\The-Planet-Has-Eyes\la planete a des yeux\la planete a des yeux_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Unity\The-Planet-Has-Eyes\la planete a des yeux\la planete a des yeux_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Unity\The-Planet-Has-Eyes\la planete a des yeux\la planete a des yeux_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Unity\The-Planet-Has-Eyes\la planete a des yeux\la planete a des yeux_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3291379323" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\TestBank</ObjectPath>
+			<ShortName>TestBank</ShortName>
+			<Path>TestBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3157003241" Name="TEST" ObjectPath="\Events\Default Work Unit\TEST"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="74950627" Language="SFX">
+					<ShortName>1693 - Wobbling Waves- Endless Falling Loop.wav</ShortName>
+					<Path>SFX\1693 - Wobbling Waves- Endless Falling Loop_F17FB28C.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

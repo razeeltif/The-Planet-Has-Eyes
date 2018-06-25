@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6E3CAF5D-1065-4D86-8C46-2E13EC5E10CB}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{6E3CAF5D-1065-4D86-8C46-2E13EC5E10CB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="TEST" ID="{0D27AA84-695A-4936-A9E1-C5A46FC23023}">
+					<ChildrenList>
+						<Action Name="" ID="{A6EBEE90-D509-4397-AF96-006346E414BD}" ShortID="927535714">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="1693 - Wobbling Waves- Endless Falling Loop" ID="{5A01AC86-70A3-48D7-B7CD-67B6F9DA5FA3}" WorkUnitID="{425740CD-57EA-435E-AB4F-E919C2D68B1C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

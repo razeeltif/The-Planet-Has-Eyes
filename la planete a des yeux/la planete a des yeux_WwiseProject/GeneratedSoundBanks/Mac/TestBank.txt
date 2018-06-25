@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3157003241	TEST			\Default Work Unit\TEST	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	74950627	1693 - Wobbling Waves- Endless Falling Loop	D:\Unity\The-Planet-Has-Eyes\la planete a des yeux\la planete a des yeux_WwiseProject\.cache\Mac\SFX\1693 - Wobbling Waves- Endless Falling Loop_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\1693 - Wobbling Waves- Endless Falling Loop		5974616
+
