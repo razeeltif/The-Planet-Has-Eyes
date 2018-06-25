@@ -9,6 +9,12 @@ public class GameManager : MonoBehaviour {
     public MoonController fireMoon;
     public MoonController coldMoon;
 
+    public float fireMoonZenith;
+    public float coldMoonZenith;
+
+    public float fireMoonMinIntensity;
+    public float coldMoonMinIntensity;
+
     public float timer;
 
     private void Awake()
