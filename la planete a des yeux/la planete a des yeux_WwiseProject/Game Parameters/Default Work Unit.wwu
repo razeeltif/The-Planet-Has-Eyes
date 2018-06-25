@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{407FA4B8-6FD3-4235-A476-31D405A0C78C}" SchemaVersion="85">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{407FA4B8-6FD3-4235-A476-31D405A0C78C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{407FA4B8-6FD3-4235-A476-31D405A0C78C}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="moonState" ID="{889E01CE-8E31-4875-AA32-BE8AF1F47DEC}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0.5"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="20"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="10"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

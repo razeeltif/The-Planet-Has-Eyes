@@ -6,6 +6,12 @@
 				<Sound Name="1693 - Wobbling Waves- Endless Falling Loop" ID="{5A01AC86-70A3-48D7-B7CD-67B6F9DA5FA3}" ShortID="226945242">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -25,6 +31,26 @@
 						<ActiveSource Name="1693 - Wobbling Waves- Endless Falling Loop" ID="{3977B36B-0AD6-4C8F-9904-30EE0ECCDB18}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<BlendContainer Name="Ambiance" ID="{6043B735-1B98-4BDA-AE77-2A13A2775ABC}" ShortID="984771401">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4052246E-63B5-400A-91D8-36960F319CF5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9DEDBD49-B01B-46C1-B797-633957255BC1}"/>
+						</Reference>
+					</ReferenceList>
+				</BlendContainer>
+				<RandomSequenceContainer Name="Footsteps" ID="{664DD66E-74BC-4383-9646-234076043353}" ShortID="955856946">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4052246E-63B5-400A-91D8-36960F319CF5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9DEDBD49-B01B-46C1-B797-633957255BC1}"/>
+						</Reference>
+					</ReferenceList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
