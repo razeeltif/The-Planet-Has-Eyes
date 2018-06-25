@@ -28,8 +28,8 @@ MonoBehaviour:
     List: []
   BankWwu:
   - Guid: '{B480716C-4C57-4B4A-B656-009D5A254B1D}'
-    m_lastTimePart2: -1999250730
-    m_lastTimePsrt1: 352817088
+    m_lastTimePart2: -1999250729
+    m_lastTimePsrt1: 187737822
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List:
@@ -48,8 +48,8 @@ MonoBehaviour:
   defaultPoolSize: 4096
   EventWwu:
   - Guid: '{6E3CAF5D-1065-4D86-8C46-2E13EC5E10CB}'
-    m_lastTimePart2: -1999250730
-    m_lastTimePsrt1: 352757248
+    m_lastTimePart2: -1999250729
+    m_lastTimePsrt1: 1606932578
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
@@ -69,6 +69,8 @@ MonoBehaviour:
   - /la planete a des yeux_WwiseProject
   - /la planete a des yeux_WwiseProject/Events
   - /la planete a des yeux_WwiseProject/Events/Default Work Unit
+  - /la planete a des yeux_WwiseProject/SoundBanks
+  - /la planete a des yeux_WwiseProject/SoundBanks/Default Work Unit
   language: English(US)
   lowerPoolSize: 2048
   m_lastPopulateTimePart2: 0
