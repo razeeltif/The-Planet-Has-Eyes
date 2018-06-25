@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoonEvent {
 
-    public event 
+
 
 
 }
