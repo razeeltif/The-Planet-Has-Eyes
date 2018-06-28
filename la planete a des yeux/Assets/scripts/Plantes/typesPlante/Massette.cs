@@ -7,7 +7,7 @@ using UnityEngine;
 public class Massette : Plante {
 
     [Header("Animation Attaque")]
-    public Animation attackAnimation;
+    public Animator attackanimator;
 
     private CircleDetector detector;
     private TailleModifier tailleModifier;
@@ -24,8 +24,9 @@ public class Massette : Plante {
 
     // Use this for initialization
     void Start () {
-		
-	}
+        attackanimator = this.transform.GetChild(1).GetComponent<Animator>();
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -37,24 +38,25 @@ public class Massette : Plante {
             // gérer la detection ici
             if(detectedObj.tag == "Player")
             {
-                attackAnimation.Play();
-                Debug.Log("attaque!");
+                this.gameObject.transform.LookAt(detectedObj.transform.position, Vector3.up);
+                attackanimator.Play("attack");
+                Debug.Log(this.gameObject.name);
             }
         }
 	}
 
     protected override void DoMoonAction(float fireMoonintensity, float coldMoonIntensity)
     {
-
+        //throw new System.NotImplementedException();
     }
 
     protected override void DoubleMoonBegin()
     {
-
+        //throw new System.NotImplementedException();
     }
 
     protected override void DoubleMoonEnd()
     {
-
+        //throw new System.NotImplementedException();
     }
 }
