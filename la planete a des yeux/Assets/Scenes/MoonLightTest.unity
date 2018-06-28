@@ -1067,7 +1067,6 @@ MonoBehaviour:
   secondsInFullDayMoon: 30
   currentTimeMoon: 0
   moonIntensity: 0
-  moonUnderMap: 0.5
 --- !u!4 &439964675
 Transform:
   m_ObjectHideFlags: 0
@@ -1838,7 +1837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9613d59f02cb67f4f88bd7404389e1dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHeight: 15
+  MaxHeight: 6
   isSolid: 0
 --- !u!64 &701501025
 MeshCollider:
@@ -2831,7 +2830,6 @@ MonoBehaviour:
   secondsInFullDayMoon: 45
   currentTimeMoon: 0.29
   moonIntensity: 0
-  moonUnderMap: 0.5
 --- !u!4 &1758198739
 Transform:
   m_ObjectHideFlags: 0
@@ -3488,7 +3486,7 @@ MonoBehaviour:
   coldMoon: {fileID: 439964674}
   fireMoonZenith: 0.9
   coldMoonZenith: 0.9
-  fireMoonMinIntensity: 0
-  coldMoonMinIntensity: 0
+  fireMoonMinIntensity: 0.5
+  coldMoonMinIntensity: 0.5
   timer: 0
   doubleMoon: 0
