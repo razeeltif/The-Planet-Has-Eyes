@@ -24,7 +24,7 @@ public class Massette : Plante {
 
     // Use this for initialization
     void Start () {
-        attackanimator = this.transform.GetChild(1).GetComponent<Animator>();
+        attackanimator = this.transform.GetChild(0).GetComponent<Animator>();
 
     }
 	

@@ -6,7 +6,7 @@ using UnityEngine;
 [RequireComponent (typeof(Plante))]
 public class TailleModifier : MonoBehaviour {
 
-    public MeshRenderer planteMesh;
+    public GameObject planteMesh;
 
     public float taille = 1;
 
