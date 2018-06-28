@@ -1838,6 +1838,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9613d59f02cb67f4f88bd7404389e1dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MaxHeight: 15
   isSolid: 0
 --- !u!64 &701501025
 MeshCollider:
@@ -3485,8 +3486,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fireMoon: {fileID: 1758198738}
   coldMoon: {fileID: 439964674}
-  fireMoonZenith: 0
-  coldMoonZenith: 0
+  fireMoonZenith: 0.9
+  coldMoonZenith: 0.9
   fireMoonMinIntensity: 0
   coldMoonMinIntensity: 0
   timer: 0
+  doubleMoon: 0

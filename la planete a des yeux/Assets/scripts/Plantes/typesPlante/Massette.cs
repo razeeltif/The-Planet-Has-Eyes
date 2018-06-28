@@ -38,4 +38,19 @@ public class Massette : Plante {
             }
         }
 	}
+
+    protected override void DoMoonAction(float fireMoonintensity, float coldMoonIntensity)
+    {
+
+    }
+
+    protected override void DoubleMoonBegin()
+    {
+
+    }
+
+    protected override void DoubleMoonEnd()
+    {
+
+    }
 }
