@@ -17,11 +17,8 @@ public class MoonController : MonoBehaviour {
     // entre 0 et 1, correspond à l'impact de la lune sur l'environnement
     public float moonIntensity;
 
-    [SerializeField] private float moonUnderMap = 0.2f;
-
     private float timeMultiplier = 1f;
     private float moonInitialIntensity;
-    private float coldMoonInitialIntensity;
 
     // Use this for initialization
     void Start () {
@@ -34,7 +31,8 @@ public class MoonController : MonoBehaviour {
         // modifier le current time
         currentTimeMoon += (Time.deltaTime / secondsInFullDayMoon) * timeMultiplier;
 
-        if(currentTimeMoon >= 1)
+        // currentTimeMoon == 1 => fin d'un cycle, on retourne à 0
+        if (currentTimeMoon >= 1)
         {
             currentTimeMoon = 0;
         }
@@ -54,10 +52,6 @@ public class MoonController : MonoBehaviour {
 
         // modification de l'intensité de la lumière
         moonIntensity = Mathf.Sin(currentTimeMoon * Mathf.PI);
-
-        // extinction des feux quand la lune passe en dessous de la carte (on veux pas un truc chelou genre intensité négative)
-        if (moonIntensity < moonUnderMap)
-            moonIntensity = 0;
 
         // modification de l'intensité de la lumière émise par le lune
         moon.intensity = moonInitialIntensity * moonIntensity;

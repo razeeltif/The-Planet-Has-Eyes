@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Plante : MonoBehaviour {
+public abstract class Plante : AffectedByMoon {
 
     public bool movable;
     public float speed;
