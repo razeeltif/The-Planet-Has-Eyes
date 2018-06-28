@@ -6,6 +6,9 @@ using UnityEngine;
 [RequireComponent(typeof(CircleDetector))]
 public class Massette : Plante {
 
+    [Header("Animation Attaque")]
+    public Animation attackAnimation;
+
     private CircleDetector detector;
     private TailleModifier tailleModifier;
 
@@ -34,6 +37,7 @@ public class Massette : Plante {
             // gérer la detection ici
             if(detectedObj.tag == "Player")
             {
+                attackAnimation.Play();
                 Debug.Log("attaque!");
             }
         }
