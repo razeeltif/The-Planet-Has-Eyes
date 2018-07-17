@@ -13,8 +13,10 @@ public class Massette : Plante {
     private TailleModifier tailleModifier;
 
     [Header("Gestion taille :")]
-    public float tailleMinimum = 1;
-    public float tailleMaximum = 2;
+    public float tailleMinimum = 1f;
+    public float tailleMaximum = 2f;
+
+    public float degat = 1f;
 
     private void Awake()
     {
@@ -36,9 +38,12 @@ public class Massette : Plante {
         if (detectedObj != null)
         {
             // gérer la detection ici
-            if(detectedObj.tag == "Player")
-            {
+            if(detectedObj.tag == "Player") { 
+            
+                // on tourne la massette dans le sens du joueur
                 this.gameObject.transform.LookAt(detectedObj.transform.position, Vector3.up);
+                this.gameObject.transform.eulerAngles = new Vector3(0, transform.eulerAngles.y, transform.eulerAngles.z);
+
                 attackanimator.Play("attack");
                 Debug.Log(this.gameObject.name);
             }
@@ -52,11 +57,17 @@ public class Massette : Plante {
 
     protected override void DoubleMoonBegin()
     {
-        //throw new System.NotImplementedException();
+        modifySize(tailleMaximum);
     }
 
     protected override void DoubleMoonEnd()
     {
-        //throw new System.NotImplementedException();
+        modifySize(tailleMinimum);
+    }
+
+    private void modifySize(float _newSize)
+    {
+        tailleModifier.modifySize(_newSize);
+        detector.detectionRadius *= _newSize / transform.localScale.x;
     }
 }

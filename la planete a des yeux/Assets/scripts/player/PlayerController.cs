@@ -13,9 +13,13 @@ public class PlayerController : MonoBehaviour {
     // vitesse de déplacement du personnage
     public float movementSpeed = 1;
 
+    // hauteur du saut
+    public float jumpForce = 10;
+
     // le bon gros rigidbody
     [HideInInspector] public Rigidbody rig;
     private PlayerCamera playerCamera;
+    private CharacterController playerController;
 
 
     // variables approvisionnées durant l'Update, puis exploitées par FixedUpdate pour le déplacement du personnage
@@ -23,12 +27,19 @@ public class PlayerController : MonoBehaviour {
     private float cameraRotation;
     private Vector3 velocity;
 
+    private bool isJumping = false;
+    private float vertVelocity;
+
+    public bool touch = false;
+
 
 
     private void Awake()
     {
         rig = GetComponent<Rigidbody>();
         playerCamera = GetComponent<PlayerCamera>();
+        playerController = GetComponent<CharacterController>();
+
     }
     
     void Start () {
@@ -41,6 +52,8 @@ public class PlayerController : MonoBehaviour {
 	
 	void Update () {
 
+        touch = playerController.isGrounded;
+
         // on récupère la souris en faisant echap (Debug only)
         if (Input.GetKeyDown(KeyCode.Escape)){
 		    if(Cursor.lockState != CursorLockMode.None)
@@ -49,29 +62,16 @@ public class PlayerController : MonoBehaviour {
             }
         }
 
-        /** Gestion de la rotation du personnage **/
-        float _xRot = Input.GetAxisRaw("Mouse X");
-        float _yRot = Input.GetAxisRaw("Mouse Y");
+        if (Input.GetKeyDown(KeyCode.Space)){
+            isJumping = true;
+        }
 
-        // on récupère la valeur de la rotation à appliquer à la caméra pour l'axe des Y de la souris
-        cameraRotation = _yRot;
-        // on récupère la valeur de la rotation à appliquer au player en fonction du mouvement de l'axe X de la souris
-        moveRotation = new Vector3(0, _xRot, 0);
+        rotation();
 
-
-        /** Gestion du déplacement du personnage **/
-
-        // on get les touches du clavier et/ou de la manette
-        float _xMov = -Input.GetAxis("Horizontal") * lookSensitivity;
-        float _zMov = -Input.GetAxis("Vertical") * lookSensitivity;
-
-        // on les converti en vecteurs de déplacement
-        Vector3 _moveHorizontal = transform.right * _xMov;
-        Vector3 _moveVertical = transform.forward * _zMov;
-
-        velocity = (_moveHorizontal + _moveVertical) * movementSpeed;
+        calculVelocity();
 
     }
+
 
     private void FixedUpdate()
     {
@@ -81,13 +81,66 @@ public class PlayerController : MonoBehaviour {
 
         // on rotate le joueur sur l'axe des X
         rig.MoveRotation(rig.rotation * Quaternion.Euler(moveRotation));
+
+        applyGravity();
     }
 
+
+    // rotation du personnage en fonction du déplacement de la souris
+    private void rotation()
+    {
+        float _xRot = Input.GetAxisRaw("Mouse X") * lookSensitivity;
+        float _yRot = Input.GetAxisRaw("Mouse Y") * lookSensitivity;
+
+        // on récupère la valeur de la rotation à appliquer à la caméra pour l'axe des Y de la souris
+        cameraRotation = _yRot;
+        // on récupère la valeur de la rotation à appliquer au player en fonction du mouvement de l'axe X de la souris
+        moveRotation = new Vector3(0, _xRot, 0);
+    }
+
+
+    // gestion du déplacement du personnage
+    // modification de velocity, var ensuite utilisé par la fonction movement
+    private void calculVelocity()
+    {
+        // on get les touches du clavier et/ou de la manette
+        float _xMov = -Input.GetAxis("Horizontal") * movementSpeed;
+        float _zMov = -Input.GetAxis("Vertical") * movementSpeed;
+
+        Vector3 deplacement = new Vector3(_xMov, vertVelocity, _zMov);
+
+        // on les converti en vecteurs de déplacement
+        Vector3 _moveHorizontal = transform.right * _xMov;
+        Vector3 _moveVertical = transform.forward * _zMov;
+
+        velocity = transform.rotation * deplacement;
+    }
+
+    // modification de la position du personnage (physic)
     private void movement()
     {
         if(velocity != Vector3.zero)
         {
-            rig.MovePosition(rig.position + velocity * Time.fixedDeltaTime);
+            //rig.MovePosition(rig.position + velocity * Time.fixedDeltaTime);
+            playerController.Move(velocity * Time.fixedDeltaTime);
+        }
+
+    }
+
+    private void applyGravity()
+    {
+        if (playerController.isGrounded)
+        {
+            if (!isJumping)
+                vertVelocity = Physics.gravity.y;
+            else
+                vertVelocity = jumpForce;
+        }
+        else
+        {
+            vertVelocity += Physics.gravity.y * Time.fixedDeltaTime;
+            vertVelocity = Mathf.Clamp(vertVelocity, -50f, jumpForce);
+            isJumping = false;
         }
     }
 }

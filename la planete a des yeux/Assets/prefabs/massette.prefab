@@ -881,6 +881,7 @@ MonoBehaviour:
   attackanimator: {fileID: 0}
   tailleMinimum: 1
   tailleMaximum: 2
+  degat: 1
 --- !u!114 &114926001311089920
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -892,7 +893,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbf7593b6d5de0b41947d0ba01d955d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectionRadius: 10
+  detectionRadius: 4
   objetADetecter:
   - {fileID: 0}
 --- !u!114 &114961693824966350
@@ -906,7 +907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0001723766fc971449064b3c9fd27f1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planteMesh: {fileID: 1350116407751428}
+  gameObjectMesh: {fileID: 0}
   taille: 1
   smooth: 3
 --- !u!137 &137914856423543008
