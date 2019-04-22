@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour {
     [HideInInspector] public Rigidbody rig;
     private PlayerCamera playerCamera;
     private CharacterController playerController;
+    private Animator anim;
 
 
     // variables approvisionnées durant l'Update, puis exploitées par FixedUpdate pour le déplacement du personnage
@@ -39,6 +40,7 @@ public class PlayerController : MonoBehaviour {
         rig = GetComponent<Rigidbody>();
         playerCamera = GetComponent<PlayerCamera>();
         playerController = GetComponent<CharacterController>();
+        anim = GetComponent<Animator>();
 
     }
     
