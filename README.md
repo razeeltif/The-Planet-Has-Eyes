@@ -1,2 +1,2 @@
-# The-Planet-Has-Eyes
+# One's Treasure
 systemic gamejam
