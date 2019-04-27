@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 [RequireComponent (typeof(Rigidbody))]
 [RequireComponent(typeof(PlayerCamera))]
 [RequireComponent(typeof(PlayerInventaire))]
 public class PlayerController : MonoBehaviour {
+
+    public float ending = 0;
+    public AudioClip Heal;
 
     // coefficient de la vitesse de la souris
     public float lookSensitivity = 1;
@@ -57,11 +61,9 @@ public class PlayerController : MonoBehaviour {
         touch = playerController.isGrounded;
 
         // on récupère la souris en faisant echap (Debug only)
-        if (Input.GetKeyDown(KeyCode.Escape)){
-		    if(Cursor.lockState != CursorLockMode.None)
-            {
-                Cursor.lockState = CursorLockMode.None;
-            }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
         }
 
         if (Input.GetKeyDown(KeyCode.Space)){
@@ -143,6 +145,20 @@ public class PlayerController : MonoBehaviour {
             vertVelocity += Physics.gravity.y * Time.fixedDeltaTime;
             vertVelocity = Mathf.Clamp(vertVelocity, -50f, jumpForce);
             isJumping = false;
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Artefact"))
+        {
+            other.gameObject.SetActive(false);
+            ending = ending + 1;
+            GetComponent<AudioSource>().Play();
+        }
+        if (ending == 3)
+        {
+            SceneManager.LoadScene("End");
         }
     }
 }
