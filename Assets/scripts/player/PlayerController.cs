@@ -62,10 +62,6 @@ public class PlayerController : MonoBehaviour {
         touch = playerController.isGrounded;
 
         // on récupère la souris en faisant echap (Debug only)
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            Application.Quit();
-        }
 
         if (Input.GetKeyDown(KeyCode.Space)){
             isJumping = true;
