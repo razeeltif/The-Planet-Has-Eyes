@@ -25,6 +25,7 @@ public class PlayerController : MonoBehaviour {
     private PlayerCamera playerCamera;
     private CharacterController playerController;
     private Animator anim;
+    int jumpHash = Animator.StringToHash("Jump");
 
 
     // variables approvisionnées durant l'Update, puis exploitées par FixedUpdate pour le déplacement du personnage
@@ -74,6 +75,14 @@ public class PlayerController : MonoBehaviour {
 
         calculVelocity();
 
+        float move = Input.GetAxis("Vertical");
+        anim.SetFloat("Speed", move);
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            anim.SetTrigger(jumpHash);
+        }
+
     }
 
 
@@ -108,8 +117,8 @@ public class PlayerController : MonoBehaviour {
     private void calculVelocity()
     {
         // on get les touches du clavier et/ou de la manette
-        float _xMov = -Input.GetAxis("Horizontal") * movementSpeed;
-        float _zMov = -Input.GetAxis("Vertical") * movementSpeed;
+        float _xMov = Input.GetAxis("Horizontal") * movementSpeed;
+        float _zMov = Input.GetAxis("Vertical") * movementSpeed;
 
         Vector3 deplacement = new Vector3(_xMov, vertVelocity, _zMov);
 

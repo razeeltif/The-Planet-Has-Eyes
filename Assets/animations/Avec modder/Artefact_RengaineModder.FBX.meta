@@ -964,6 +964,7 @@ ModelImporter:
     13700014: ring
     13700016: sphere
     13700018: tete
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -979,12 +980,20 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'Personnage15' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'mixamorig:Spine' has translation animation
+      that will be discarded.\n\t'mixamorig:Spine1' has translation animation that
+      will be discarded.\n\t'mixamorig:Head' has translation animation that will be
+      discarded.\n\t'mixamorig:LeftArm' has translation animation that will be discarded.\n\t'mixamorig:RightArm'
+      has translation animation that will be discarded.\n\t'mixamorig:LeftFoot' has
+      translation animation that will be discarded.\n\t'mixamorig:LeftToeBase' has
+      translation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -1024,8 +1033,1377 @@ ModelImporter:
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
-    human: []
-    skeleton: []
+    human:
+    - boneName: mixamorig:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Artefact_RengaineModder(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: botte
+      parentName: Artefact_RengaineModder(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Box001
+      parentName: Artefact_RengaineModder(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corps001
+      parentName: Artefact_RengaineModder(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lumivert
+      parentName: Artefact_RengaineModder(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: main
+      parentName: Artefact_RengaineModder(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object001
+      parentName: Artefact_RengaineModder(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oeil
+      parentName: Artefact_RengaineModder(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ring
+      parentName: Artefact_RengaineModder(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sphere
+      parentName: Artefact_RengaineModder(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tete
+      parentName: Artefact_RengaineModder(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Hips
+      parentName: Artefact_RengaineModder(Clone)
+      position: {x: -0.00000008613512, y: 0.04218932, z: -0.00008094502}
+      rotation: {x: -0.0004372396, y: 0.115922295, z: 0.01117415, w: 0.99319535}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: mixamorig:Spine
+      parentName: mixamorig:Hips
+      position: {x: 0.00057341915, y: 0.003222728, z: -0.000015230784}
+      rotation: {x: -0.07916693, y: -0.23902674, z: -0.011233725, w: 0.96771514}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Spine1
+      parentName: mixamorig:Spine
+      position: {x: -0.000001938308, y: 0.0030441978, z: -0.0001651856}
+      rotation: {x: 0.09400712, y: 0.0017307836, z: -0.008706582, w: 0.995532}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: mixamorig:Spine2
+      parentName: mixamorig:Spine1
+      position: {x: -0, y: 0.0043030926, z: -1.8924474e-10}
+      rotation: {x: 0.09028225, y: 0.00166211, z: -0.008361587, w: 0.99587977}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Neck
+      parentName: mixamorig:Spine2
+      position: {x: 2.3101165e-14, y: 0.0048409654, z: -3.784895e-10}
+      rotation: {x: 0.013869541, y: -0.15539548, z: 0.0048693935, w: 0.98774296}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Head
+      parentName: mixamorig:Neck
+      position: {x: 0.0000064279175, y: 0.003296957, z: -0.00046248242}
+      rotation: {x: -0.13613307, y: 0.019521795, z: 0.035217613, w: 0.9898719}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: mixamorig:HeadTop_End
+      parentName: mixamorig:Head
+      position: {x: -0, y: 0.008521082, z: -0.001222253}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightShoulder
+      parentName: mixamorig:Spine2
+      position: {x: 0.0013223231, y: 0.004244805, z: -0.000037566784}
+      rotation: {x: -0.52466446, y: -0.4721178, z: 0.5491731, w: -0.44748297}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightArm
+      parentName: mixamorig:RightShoulder
+      position: {x: -0.00013916777, y: 0.003012215, z: 0.00041755434}
+      rotation: {x: -0.017517755, y: 0.16372785, z: -0.09298937, w: 0.98195696}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: mixamorig:RightForeArm
+      parentName: mixamorig:RightArm
+      position: {x: -0, y: 0.0099053215, z: 0}
+      rotation: {x: -0.021381434, y: 0.07669721, z: -0.0034177604, w: 0.99681926}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: mixamorig:RightHand
+      parentName: mixamorig:RightForeArm
+      position: {x: -0, y: 0.008748141, z: 0}
+      rotation: {x: 0.16186258, y: 0.87509876, z: -0.064727694, w: -0.4514566}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: mixamorig:RightHandIndex1
+      parentName: mixamorig:RightHand
+      position: {x: -0, y: 0.003110964, z: 0.0000027917386}
+      rotation: {x: 0.08879915, y: 0.10896028, z: -0.12032006, w: 0.9827337}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: mixamorig:RightHandIndex2
+      parentName: mixamorig:RightHandIndex1
+      position: {x: 0.0000129837035, y: 0.00071657146, z: 0}
+      rotation: {x: 0.000013285212, y: 0.0008995254, z: -0.0030278852, w: 0.99999505}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: mixamorig:RightHandIndex3
+      parentName: mixamorig:RightHandIndex2
+      position: {x: 0.00000849936, y: 0.00065360893, z: 0}
+      rotation: {x: 0.031391643, y: 0.0875937, z: -0.032283146, w: 0.9951381}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: mixamorig:RightHandIndex4
+      parentName: mixamorig:RightHandIndex3
+      position: {x: -0.000021484577, y: 0.00062068645, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: mixamorig:RightHandThumb1
+      parentName: mixamorig:RightHand
+      position: {x: -0.00068021374, y: 0.001248228, z: 0.00046299864}
+      rotation: {x: 0.36457402, y: 0.022037286, z: -0.1094647, w: 0.92445534}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Dummy001
+      parentName: mixamorig:RightHandThumb1
+      position: {x: 0.0018868657, y: 0.0027439364, z: 0.0077722543}
+      rotation: {x: 0.63907546, y: 0.23325843, z: -0.56857413, w: -0.46248946}
+      scale: {x: 1.0000002, y: 0.9999999, z: 1.0000002}
+    - name: Artefact
+      parentName: Dummy001
+      position: {x: -0.000074229356, y: -0.0000038424255, z: 0.000046139383}
+      rotation: {x: -0.000000014901161, y: -0.000000009313226, z: 0.00000000372529,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Artefact 1
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215104, y: -0.5981773, z: 0.7087842, w: -0.35669467}
+      scale: {x: 0.6783925, y: 0.67839134, z: 0.6783921}
+    - name: Mesh001
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh002
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh003
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh004
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh005
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh006
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh007
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh008
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh009
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh010
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh011
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh012
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh013
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh014
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh015
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh016
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh017
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh018
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh019
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh020
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh021
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh022
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh023
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh024
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh025
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh026
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh027
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh028
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh029
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh030
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh031
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh032
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh033
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh034
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh035
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh036
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh037
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh038
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh039
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh040
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh041
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh042
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh043
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh044
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh101
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh102
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh103
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh104
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh105
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh106
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh107
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh108
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh109
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh110
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh111
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh112
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh113
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh114
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh115
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh116
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh117
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh118
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh119
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh120
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh121
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh122
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh123
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh124
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh125
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh126
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh127
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh128
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh129
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh130
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh131
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh132
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh133
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh134
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh135
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh136
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh137
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh138
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh139
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh140
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh141
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh142
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh143
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh144
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh145
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh146
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh147
+      parentName: Artefact
+      position: {x: 0.00007422671, y: 0.0000038333415, z: -0.000046137302}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: ArtefactAnneau
+      parentName: Dummy001
+      position: {x: 0.00039152164, y: -0.00027496202, z: 0.000008777928}
+      rotation: {x: -0.000000014901161, y: -0.000000009313226, z: 0.00000000372529,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh045
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh046
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh047
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152504, y: 0.00027495596, z: -0.000008776035}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.67839205, y: 0.67839235, z: 0.67839175}
+    - name: Mesh048
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh049
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh050
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh051
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh052
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh053
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh054
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh055
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh056
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh057
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh058
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh059
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh060
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh061
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh062
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh063
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh064
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh065
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh066
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh067
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh068
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh069
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh070
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh071
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh072
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh073
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh074
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh075
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh076
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh077
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh078
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh079
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh080
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh081
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh082
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh083
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh084
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh085
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh086
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh087
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh088
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh089
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh090
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh091
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh092
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh093
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh094
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh095
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh096
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh097
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh098
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh099
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Mesh100
+      parentName: ArtefactAnneau
+      position: {x: -0.00039152807, y: 0.00027495596, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783921, y: 0.6783923, z: 0.6783918}
+    - name: Object003
+      parentName: ArtefactAnneau
+      position: {x: -0.0003915292, y: 0.0002749605, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783914, y: 0.67839205, z: 0.67839193}
+    - name: Object005
+      parentName: ArtefactAnneau
+      position: {x: -0.0003915292, y: 0.0002749605, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783914, y: 0.67839205, z: 0.67839193}
+    - name: Object007
+      parentName: ArtefactAnneau
+      position: {x: -0.0003915292, y: 0.0002749605, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783914, y: 0.67839205, z: 0.67839193}
+    - name: Object009
+      parentName: ArtefactAnneau
+      position: {x: -0.0003915292, y: 0.0002749605, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783914, y: 0.67839205, z: 0.67839193}
+    - name: Object011
+      parentName: ArtefactAnneau
+      position: {x: -0.0003915292, y: 0.0002749605, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783914, y: 0.67839205, z: 0.67839193}
+    - name: Object013
+      parentName: ArtefactAnneau
+      position: {x: -0.0003915292, y: 0.0002749605, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783914, y: 0.67839205, z: 0.67839193}
+    - name: Object015
+      parentName: ArtefactAnneau
+      position: {x: -0.0003915292, y: 0.0002749605, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783914, y: 0.67839205, z: 0.67839193}
+    - name: Object017
+      parentName: ArtefactAnneau
+      position: {x: -0.0003915292, y: 0.0002749605, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783914, y: 0.67839205, z: 0.67839193}
+    - name: Object019
+      parentName: ArtefactAnneau
+      position: {x: -0.0003915292, y: 0.0002749605, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783914, y: 0.67839205, z: 0.67839193}
+    - name: Object021
+      parentName: ArtefactAnneau
+      position: {x: -0.0003915292, y: 0.0002749605, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783914, y: 0.67839205, z: 0.67839193}
+    - name: Object023
+      parentName: ArtefactAnneau
+      position: {x: -0.0003915292, y: 0.0002749605, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783914, y: 0.67839205, z: 0.67839193}
+    - name: Object025
+      parentName: ArtefactAnneau
+      position: {x: -0.0003915292, y: 0.0002749605, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783914, y: 0.67839205, z: 0.67839193}
+    - name: Object027
+      parentName: ArtefactAnneau
+      position: {x: -0.0003915292, y: 0.0002749605, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783914, y: 0.67839205, z: 0.67839193}
+    - name: Object029
+      parentName: ArtefactAnneau
+      position: {x: -0.0003915292, y: 0.0002749605, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783914, y: 0.67839205, z: 0.67839193}
+    - name: Object031
+      parentName: ArtefactAnneau
+      position: {x: -0.0003915292, y: 0.0002749605, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783914, y: 0.67839205, z: 0.67839193}
+    - name: Object033
+      parentName: ArtefactAnneau
+      position: {x: -0.0003915292, y: 0.0002749605, z: -0.000008775279}
+      rotation: {x: 0.11215096, y: -0.5981773, z: 0.7087843, w: -0.35669458}
+      scale: {x: 0.6783914, y: 0.67839205, z: 0.67839193}
+    - name: mixamorig:RightHandThumb2
+      parentName: mixamorig:RightHandThumb1
+      position: {x: -0.00019171704, y: 0.0011805587, z: -0.000000006055832}
+      rotation: {x: 0.00041815048, y: -0.007137094, z: 0.10123923, w: 0.99483645}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: mixamorig:RightHandThumb3
+      parentName: mixamorig:RightHandThumb2
+      position: {x: 0.00003669607, y: 0.00082919176, z: 0}
+      rotation: {x: 0.0027307533, y: 0.019157505, z: 0.098486505, w: 0.99495023}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: mixamorig:RightHandThumb4
+      parentName: mixamorig:RightHandThumb3
+      position: {x: 0.00015502324, y: 0.00063183974, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: mixamorig:LeftShoulder
+      parentName: mixamorig:Spine2
+      position: {x: -0.0013223231, y: 0.0042441874, z: -0.000025916312}
+      rotation: {x: 0.542588, y: -0.45105046, z: 0.54760027, w: 0.4497618}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftArm
+      parentName: mixamorig:LeftShoulder
+      position: {x: 0.000012672341, y: 0.0032526986, z: -0.00007507272}
+      rotation: {x: -0.13420218, y: -0.13405615, z: -0.12607196, w: 0.973717}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: mixamorig:LeftForeArm
+      parentName: mixamorig:LeftArm
+      position: {x: 3.784895e-10, y: 0.009905582, z: 0.000000006055832}
+      rotation: {x: -0.017226046, y: 0.5974547, z: -0.0053959633, w: 0.8016995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHand
+      parentName: mixamorig:LeftForeArm
+      position: {x: 3.784895e-10, y: 0.008744688, z: 0.000000006055832}
+      rotation: {x: -0.24111092, y: 0.37296367, z: -0.059200913, w: 0.8940128}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: mixamorig:LeftHandThumb1
+      parentName: mixamorig:LeftHand
+      position: {x: 0.0006790344, y: 0.0012663819, z: 0.00050615246}
+      rotation: {x: 0.5081717, y: -0.25999862, z: -0.024116427, w: 0.82071966}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: mixamorig:LeftHandThumb2
+      parentName: mixamorig:LeftHandThumb1
+      position: {x: 0.00017693362, y: 0.0012058736, z: 0}
+      rotation: {x: 0.00015121546, y: 0.0042004823, z: -0.110016905, w: 0.99392086}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: mixamorig:LeftHandThumb3
+      parentName: mixamorig:LeftHandThumb2
+      position: {x: -0.000061379644, y: 0.00082134793, z: 0}
+      rotation: {x: 0.00011300375, y: -0.0008757966, z: -0.054078426, w: 0.99853635}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: mixamorig:LeftHandThumb4
+      parentName: mixamorig:LeftHandThumb3
+      position: {x: -0.00011555436, y: 0.00061862596, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: mixamorig:LeftHandIndex1
+      parentName: mixamorig:LeftHand
+      position: {x: 0.000000001513958, y: 0.0030888163, z: 0.0000042693614}
+      rotation: {x: 0.14974327, y: -0.21361472, z: 0.07994251, w: 0.9620576}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: mixamorig:LeftHandIndex2
+      parentName: mixamorig:LeftHandIndex1
+      position: {x: 0.00000006964206, y: 0.00072377786, z: 0.000000006055832}
+      rotation: {x: -0.00000012564824, y: 0.000066304885, z: 0.0019012279, w: 0.9999982}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: mixamorig:LeftHandIndex3
+      parentName: mixamorig:LeftHandIndex2
+      position: {x: 0.000001333797, y: 0.00066874246, z: 0}
+      rotation: {x: -0.00000036863082, y: -0.0000027896467, z: -0.0037669092, w: 0.9999929}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: mixamorig:LeftHandIndex4
+      parentName: mixamorig:LeftHandIndex3
+      position: {x: -0.000001401925, y: 0.0006797308, z: 0}
+      rotation: {x: 0.16931708, y: -0.086570926, z: -0.09507721, w: 0.97713745}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightUpLeg
+      parentName: mixamorig:Hips
+      position: {x: 0.0035569563, y: -0.0017709493, z: 0.000024030487}
+      rotation: {x: -0.0031724756, y: -0.0109563405, z: 0.99961036, w: -0.025476277}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightLeg
+      parentName: mixamorig:RightUpLeg
+      position: {x: -0, y: 0.0178425, z: -1.8924474e-10}
+      rotation: {x: -0.086411804, y: 0.04532654, z: -0.004804581, w: 0.9952163}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: mixamorig:RightFoot
+      parentName: mixamorig:RightLeg
+      position: {x: -0, y: 0.018894685, z: 9.462237e-11}
+      rotation: {x: 0.4617191, y: -0.0071942583, z: -0.05002007, w: 0.88558555}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: mixamorig:RightToeBase
+      parentName: mixamorig:RightFoot
+      position: {x: -0, y: 0.005302811, z: 0}
+      rotation: {x: 0.41478392, y: -0.016295375, z: 0.048528604, w: 0.9084788}
+      scale: {x: 1, y: 1.0000001, z: 0.9999999}
+    - name: mixamorig:RightToe_End
+      parentName: mixamorig:RightToeBase
+      position: {x: -0.00000008909657, y: 0.0018111031, z: -0.00000094079513}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftUpLeg
+      parentName: mixamorig:Hips
+      position: {x: -0.0035569563, y: -0.0017709493, z: 0.00009703732}
+      rotation: {x: -0.23964301, y: 0.058440793, z: 0.9689458, w: 0.01732224}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: mixamorig:LeftLeg
+      parentName: mixamorig:LeftUpLeg
+      position: {x: -3.784895e-10, y: 0.017838731, z: 0}
+      rotation: {x: -0.18099949, y: 0.046331577, z: 0.023554606, w: 0.98210883}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: mixamorig:LeftFoot
+      parentName: mixamorig:LeftLeg
+      position: {x: 0.0000026066966, y: 0.018963898, z: 0.000017542972}
+      rotation: {x: 0.47052014, y: 0.020738503, z: -0.022826662, w: 0.8818501}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: mixamorig:LeftToeBase
+      parentName: mixamorig:LeftFoot
+      position: {x: -0.00000042201088, y: 0.0051894416, z: 0.00008653512}
+      rotation: {x: 0.39285824, y: 0.050986517, z: -0.03226135, w: 0.91761756}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: mixamorig:LeftToe_End
+      parentName: mixamorig:LeftToeBase
+      position: {x: -0, y: 0.0017936041, z: -4.7311186e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -1036,10 +2414,10 @@ ModelImporter:
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
